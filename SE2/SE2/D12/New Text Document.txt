@@ -1,0 +1,28 @@
+REST API:
+	-Bearbeitung von nutzer anfragen
+	-Weitergabe an aktuellen informationen an die anfragenden Akteuere
+
+Web Intf:
+	-interaktionen zwischen browser und server
+	-bereitstellen der erforderlichen informationen und inhalten 
+
+
+Employee Intf:
+	-Bestätigung von user Anfragen	
+	-Kundenmanagement
+	
+CAR REST API:
+	-Verarbeitung des zustandsberichtes vom fahrzeug
+	-Freischaltung und sperren von Fahrzeugen
+
+
+
+3)
+	-Registration Manager: führt den Registrierungsprozess durch für neukunden 
+	 -> benötigt dazu den zugriff zum Customer Manager
+	
+	-Reservation Manager -> benötigt Zugriff auf Customer Manager
+
+	-Rental Manager -> benötigt zugriff auf Fleet Manager und customer Manager
+
+	Der Fleet manager und customer Manager haben keine weiteren abhängigkeiten

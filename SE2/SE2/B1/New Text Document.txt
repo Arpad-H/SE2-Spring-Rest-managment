@@ -1,0 +1,8 @@
+1)
+Investoren
+2)
+Kunde: jemand der registriert ist und das fahrzeug anmietet
+Besucher: nicht registrierter akteur der die informationen in der app (zb. standort der Fahrzeuge) einsehen kann aber kein fahrzeug anmieten
+Service-Mitarbeiter: bewertet unfälle und shäden vor ort
+Fahrzeug:Sendet automatisiert den Zustandsbericht beu über und rücknahmen
+Zentralle: Verfolgt fahrzeuge mit gps, verifiziert kunden, bestätigt reservierungen, gibt fahtzeuge frei.

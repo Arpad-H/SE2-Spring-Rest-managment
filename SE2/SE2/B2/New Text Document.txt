@@ -1,0 +1,26 @@
+1)include weil eine registrierung ohne bestätigung nicht möglich ist
+5 a)10 tage
+  b)vorgang wird abgebrochen
+  c)nach 2 tagen wird der vorgang abgebrochen
+  d)NAch 2 wochen wird der vorgang abgebrochen
+
+6) 
+#US001-Als besucher möchte ich mich bei der app registrieren können
+#US002-Als Zentrale will ich die identität eines besuchers bei der registrierung überprüfen
+#US003-Als kunde möchte ich meine daten ändern können
+#US004-Als besucher möchte ich eine bestätigung erhalten wenn der registrierungs prozess erfolgreich war
+#US005-Als besucher möchte ich  eine bestätigung erhalten wenn der registrierungsprozess abgebrochen wurde
+
+7) 
+#FA001- Das System soll den kunden auf unvollständigkeut des formulars hinweisen
+#FA002- Das System soll dem kunden eine emil mit den details zur identitätsprüfung schicken
+#FA004- Daas System soll Der bank die zu prüfende Bankverbindung zuschicken
+#FA006- Das System soll den Prozess und die vorgänge abbrechen wenn eine der Antworten negativ ausfällt
+#FA007- Das System soll den besucher über den Fehlschlag oder Erfolg benachrichtigen
+
+8)
+#FA001- Das System kann 20 registrierungen pro sekunde bearbeiten
+#FA002- Das system kann 4 wochen ohne neustart laufen
+#FA003- Das system soll sichere kommunikation gewährleisten
+#FA004- Das System soll leicht wartbar sein
+#FA005- Das System soll die daten innerhalb von 10ms verarbeiten

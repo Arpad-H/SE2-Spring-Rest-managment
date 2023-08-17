@@ -1,0 +1,20 @@
+a) Transaktionen ist eine folge logischer operationen die entweder vollständig oder gar nicht ausgeführt werden
+b) Atomarität - eine DB‐Operation wird entweder vollständig oder gar nicht ausgeführt
+   Konsistenz - DB‐Operationen führen stets zu konsistenten (widerspruchsfreien, voll‐
+   ständigen) Zuständen der Daten.
+   Isolation  - DB‐Operationen können gleichzeitig in beliebiger
+   Reihenfolge ausgeführt werden
+   Dauerhaftigkeit - der Zustand einer bestätigten Transaktion bleibt
+   dauerhaft erhalten
+c) Schema ist die logische struktur der Datenbank beschrieben in einer formalen sprache die das DBMS versteht
+d) nicht‐relationale DB Systeme: Mongo-DB für json, Redis für KV paare oder Cassandra Column Orientiert
+   relationale DB: MySQL, Firebird, InterBase
+e) SELECT id FROM Customers WHERE id=4
+f) CREATE Customer (id BIGINT,
+		    Name VARCHAR(256),
+		    Contact VARCHAR(256),
+		    Last_Login DATETIME,
+		    PRIMARY KEY( id ))
+g) INSERT INTO Customer
+   VALUES (1,"Arpad Horvath", "s48915@bht-berlin.de", GETDATE())
+h) DELETE FORM Customer WHERE id=4
